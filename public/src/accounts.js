@@ -13,7 +13,7 @@ function getTotalNumberOfBorrows(account, books) {
   for (let i = 0; i < books.length; i++) { //loop through array of books
     let book = books[i]; 
     
-    for (let j = 0; j < book.borrows.length; j++) { //nexted loop through `borrows` array key in book obj
+    for (let j = 0; j < book.borrows.length; j++) { //nested loop through `borrows` array key in book obj
       let borrows = book.borrows[j];
       
       if (borrows.id === id) {
